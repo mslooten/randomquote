@@ -1,0 +1,94 @@
+@import 'https://fonts.googleapis.com/css?family=Merriweather:400,400i';
+body {
+  font-family: sans-serif;
+  text-align:center;
+  transition: all 1s ease-in;
+  padding: 20px;
+}
+#credits {
+  margin-top:20px;
+  font-size:12px;
+}
+#quote {
+  max-width: 500px;
+  margin: 0px auto 10px auto;
+  font-size:20px;
+  font-family: 'merriweather', sans-serif;
+  text-align:left;
+  padding:30px;
+  border-radius: 2px;
+  line-height:1.6;
+  transition: all 1s ease-in;
+  font-size: 15px;
+  position: relative;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+#quote p {
+   
+  padding: 20px
+  
+}
+#quote p::before {
+  content: "\“";
+  font-size: 300%;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+#text {
+  font-size: 125%;
+}
+#author {
+  font-style:italic;
+  text-align: right;
+  padding: 0 20px;
+}
+#author::before {
+  content: "— ";
+}
+.small {
+  height: 50px;
+  width: 50px;
+  border-radius:50px;
+  overflow: hidden;
+  background: #000;
+}
+.large {
+    height: auto;
+  width: 500px;
+  border-radius:2px;
+}
+.share {
+  display: inline-block;
+  font-weight: normal;
+  font-size:14px;
+  padding: 10px 15px;
+  background: #000;
+  color: #fff;
+  margin: 10px;
+  text-decoration: none;
+  transition: all 1s ease-in;
+}
+
+#credits a {
+  color: #000;
+  transition: color 1s ease-in;
+}
+#copyShareLink {
+  display:block;
+  margin: 10px auto;
+  max-width: 300px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 2px;
+  border: none;
+  display: none;
+}
